@@ -1,12 +1,12 @@
 from flask import Flask, render_template
 import sys
 
-sys.path.insert(0, '/home/pi/ME3000')
+sys.path.insert(0, '/home/mike/ME3000')
 import me3000 as me
 
 app = Flask(__name__)
 
-THRESHOLD_FILE="/home/pi/ME3000/pct.txt"
+THRESHOLD_FILE="/home/mike/ME3000/pct.txt"
 
 def read_threshold():
     try:
