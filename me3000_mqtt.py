@@ -8,10 +8,10 @@ import numpy
 import sys
 sys.path.insert(0, '/home/mike/ME3000')
 from me3000 import ME3000
-from MyME3000 import *
+#from MyME3000 import *
 
 SLAVE=0x01
-THRESHOLD_FILE="pct.txt"
+THRESHOLD_FILE="/home/mike/pct.txt"
 SERIAL_PORT="/dev/ttyUSB2"
 MIN_CHARGE=20
 MAX_CHARGE=99
