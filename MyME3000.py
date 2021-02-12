@@ -1,16 +1,16 @@
 # Highbanks ME3000
 
 SLAVE=0x01
-THRESHOLD_FILE="/home/pi/ME3000/pct.txt"
-SERIAL_PORT="/dev/ttyUSB0"
+THRESHOLD_FILE="pct.txt"
+SERIAL_PORT="/dev/ttyUSB2"
 MIN_CHARGE=20
 MAX_CHARGE=99
 
 # MQTT
 ME3000_NAME='me3000'
 MQTT_HOST='localhost'
-MQTT_USER='emonpi'
-MQTT_PWD='emonpimqtt2016'
+MQTT_USER='solarMODBUS'
+MQTT_PWD='solar'
 
 TOPICS = ((6, 'voltage', 'H'),
           (7, 'current', 'h'),
